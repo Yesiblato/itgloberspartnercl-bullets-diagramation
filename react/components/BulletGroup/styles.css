@@ -1,12 +1,29 @@
 .bullet__container {
-  display: flex;
+  display : flex;
   overflow: auto;
-  
+
 }
 
 .bullet__item,
 .bullet__item--image {
-  width: 80px;
+  width    : 80px;
+  min-width: 80px;
+}
+
+.bullet__container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.bullet__container::-webkit-scrollbar-track,
+.bullet__container::-webkit-scrollbar-thumb {
+  background-clip : padding-box;
+  background-color: #ebedee;
+  border-right    : 16 px solid transparent;
+  border-left    : 16 px solid transparent;
+}
+
+.bullet__container::-webkit-scrollbar-thumb {
+  background-color: black;
 }
 
 .bullet__item {
@@ -36,7 +53,8 @@
 
   .bullet__item,
   .bullet__item--image {
-    width: 100px;
+    width    : 100px;
+    min-width: 80px;
   }
 
 }
