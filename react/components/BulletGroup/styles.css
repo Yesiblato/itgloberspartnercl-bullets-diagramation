@@ -1,3 +1,9 @@
+.bullet__container {
+  display: flex;
+  overflow: auto;
+  
+}
+
 .bullet__item,
 .bullet__item--image {
   width: 80px;
