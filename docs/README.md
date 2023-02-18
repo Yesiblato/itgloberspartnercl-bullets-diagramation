@@ -1,6 +1,6 @@
 # BULLETS DIAGRAMATION COMPONENT
 
-Este es un componente personalizado que muestra los niveles de navegación dentro de una lista de bullets con imágenes, se puede configurar para mostrar de diferentes manera según los dispositivos.
+Este es un componente personalizado que permite mostrar los niveles de inferiores de navegación dentro de una lista de bullets con imágenes, y se puede renderizar de diferente maneras según el dispositivo.
 
 En este componente se trabajó con las siguientes tecnologías:
 
@@ -9,12 +9,15 @@ En este componente se trabajó con las siguientes tecnologías:
 - Typescript.
 - Css.
 
-## Imágenes.
-- Slider en Desktop.
-![slider bullets](https://user-images.githubusercontent.com/87024446/219830094-f0302cee-e5e5-4922-8f45-d2fa9d3032bd.JPG)
+## Imágenes del componente.
 
-- Slider en Mobile
-![bullets diagramation mobile](https://user-images.githubusercontent.com/87024446/219830099-4c0337fb-09b5-4b7e-b581-fadf22e408c2.JPG)
+- Slider en desktop.
+
+![slider bullets](https://user-images.githubusercontent.com/87024446/219830339-88600adb-b00e-4498-b925-964f9564c453.JPG)
+
+- Slider en mobile.
+
+![bullets diagramation mobile](https://user-images.githubusercontent.com/87024446/219830343-e45b24de-b612-4eb9-bf99-fdc5a3e1470d.JPG)
 
 ## Configuration 
 
@@ -30,11 +33,11 @@ como se muestra en el siguiente ejemplo:
 
 ```js
 {
-"vendor": "itgloberspartnercl",
+  "vendor": "itgloberspartnercl",
   "name": "bullets-diagramation",
   "version": "0.0.1",
   "title": "Bullets Diagramation",
-  "description": "Es un contexto de elementos que renderizan los nieveles inferiores de la navegación dentro de una lista de bullets con imagenes."
+  "description": "Es un contexto de elementos que renderizan los nieveles inferiores de la navegación dentro de una lista de bullets con imagenes.",
 }
 ```
 Además, verifique que el archivo cuente con los siguientes builders: 
